@@ -8,3 +8,5 @@ formik
 formData
 react-query
 react-page-flip
+npm install react react-dom react-router-dom react-three-fiber three
+
