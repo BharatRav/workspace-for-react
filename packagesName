@@ -12,3 +12,13 @@ npm install react react-dom react-router-dom react-three-fiber three
 
 react-export-table-to-excel
 
+  <DownloadTableExcel
+            filename={localStorage.getItem("user_name")}
+            sheet="users"
+            currentTableRef={tableRef.current}
+          >
+            <CustomButton className="!mx-3 !font-semibold">
+              <DownloadTwoTone className="mr-1" /> Export
+            </CustomButton>
+          </DownloadTableExcel>
+
